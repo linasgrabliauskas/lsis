@@ -1,0 +1,15 @@
+/* Mobile first */
+.formal-details{
+    width: 100%;
+    padding-top: 100px;
+    font-family: var(--main-font);
+    background-color: var(--dark-gray);
+}
+
+
+.formal-details__content{
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--light-gray);
+}

@@ -1,0 +1,94 @@
+.about__container_image {
+    background-image: url(../assets/images/4.jpg);
+    height: 50vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: var(--accent-font);
+    position: relative;
+}
+.about__container_image h2 {
+    position: relative;
+    color: white;
+    font-size: 32px;
+    font-family: var(--accent-font);
+    font-weight: 300;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+}
+.about__container_image:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.4);
+}
+
+.about__container_text {
+    margin: 60px 50px 0 50px;
+}
+.about__container_text h2 {
+    font-family: var(--accent-font);
+    font-weight: 400;
+    font-size: 2.8em;
+    padding-bottom: 50px;
+}
+.about__container_text p {
+    padding-bottom: 20px;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: justify;
+}
+.about__container button {
+    display: inline-block;
+    width: 200px;
+    margin: 15px 0 35px;
+}
+.about__container h3{
+    margin: 15px 0;
+}
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+    
+    .about__container_image {
+        height: 50vh;
+    }
+    .about__container_text p {
+        line-height: 25px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .about__container_image {
+        background-position:50% 30%;
+        
+    }
+    .about__container_image h2 {
+        font-size: 32px;
+        font-family: var(--accent-font);
+        font-weight: 300;
+        text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+    }
+    .about__container_text p {
+        line-height: 26px;
+        font-size: 19px;
+        padding-bottom: 10px;
+    }
+    .about__container_text {
+        max-width: 80%;
+        margin: 100px auto 0 auto;
+    }
+}
+
+@media screen and (min-width: 1480px) {
+    .about__container_text {
+        margin: 100px auto 60px auto;
+    }
+    .about__container button {
+        margin: 35px 0;
+    }
+}

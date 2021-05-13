@@ -1,0 +1,43 @@
+.admin-panel {
+     margin: 2rem 0;
+     min-height: calc(100vh - 120px);
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   
+   .admin-panel__buttons {
+     display: flex;
+     margin-bottom: 1rem;
+   }
+   
+   .admin-panel .formal-details {
+     background: transparent;
+     padding-top: 50px;
+   }
+   
+   .admin-panel .formal-details .formal-details__content {
+     margin-bottom: 2rem;
+   }
+   
+   .admin-panel
+     .formal-details
+     .formal-details__content
+     .details__table-input:focus {
+     background: #ffffff;
+     border: 1px solid var(--dark-gray);
+   }
+   
+   .admin-panel
+     .formal-details
+     .formal-details__content
+     .details__table-input:-webkit-autofill {
+     box-shadow: 0 0 0px 1000px var(--white-color) inset;
+   }
+   
+   @media screen and (min-width: 768px) {
+     .admin-panel .formal-details {
+       height: auto;
+     }
+   }
+   

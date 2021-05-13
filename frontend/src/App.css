@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@400;700&family=Roboto:wght@100;300;400;700&display=swap');
+
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --accent-font: 'Abhaya Libre', serif;
+
+  --dark-gray: #262424;
+  --light-color: #e9e6e6;
+  --light-gray: #f7f7f7;
+  --transparent-bg: rgba(0, 0, 0, 0.5);
+  --white-color: #fff;
+  --contact-input-color: rgba(196, 196, 196, 0.6);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+*::selection {
+  background: var(--light-color);
+}
+
+.App {
+  font-family: var(--main-font);
+  overflow: hidden;
+}
+
+.page-container{
+  max-width: 1920px;
+  margin: 0 auto;
+}

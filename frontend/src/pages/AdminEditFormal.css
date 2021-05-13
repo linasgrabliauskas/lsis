@@ -1,0 +1,81 @@
+.details__table-input {
+  border: none;
+  background: transparent;
+  font-size: 14px;
+  width: 100%;
+  padding: 0.5rem 1rem;
+}
+
+.details__table-input.active {
+  background: #ffffff;
+  border: 1px solid var(--dark-gray);
+}
+
+.details__table--controlls {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.details__table--controlls button {
+  margin: 0 0.3rem;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  cursor: pointer;
+}
+
+.details__table--controlls button:focus {
+  outline: none;
+}
+
+.formal-details__pop-up {
+  width: 80%;
+  height: 200px;
+  padding: 2rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: var(--light-gray);
+  box-shadow: 0 3px 50px var(--transparent-bg);
+  border-radius: 5px;
+  display: none;
+}
+
+.formal-details__pop-up-text {
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.formal-details__pop-up-text span {
+  font-weight: bold;
+}
+
+.formal-details__pop-up-controlls {
+  margin-top: 1rem;
+}
+
+.formal-details__pop-up-controlls button {
+  margin: 0.5rem;
+}
+
+.formal-details__pop-up.on {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
+  .details__table-input {
+    width: 80%;
+  }
+
+  .formal-details__pop-up {
+    width: 50%;
+  }
+}

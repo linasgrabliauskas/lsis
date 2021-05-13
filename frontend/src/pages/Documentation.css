@@ -1,0 +1,72 @@
+.doc-container {
+    color: var(--light-color);
+    align-items: center;
+    padding: 0 0px 30px 0;
+    background-color: var(--dark-gray);
+}
+
+.image {
+    background-image: linear-gradient(to bottom, var(--transparent-bg), var(--transparent-bg)), url('../assets/images/9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.title-container {
+    padding: 20px 20px 0px 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.section-container {
+    padding: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+.doc-container p {
+    margin: 25px 0px;
+    font-weight: 300;
+    line-height: 20px;
+}
+
+.endpoint {
+    padding: 15px;
+    background: #b4b4b4;
+    color: black;
+    margin: 15px 5px;
+    border: transparent;
+    border-radius: 3px;
+    word-break: break-all;
+}
+
+.ex-text {
+    padding: 15px 0px;
+    font-weight: 400;
+}
+
+.err-msg {
+    padding-top: 30px;
+    font-weight: 900;
+}
+
+.und-title { 
+    text-decoration: underline;
+}
+
+.api-img1{
+    max-width: 100%;
+    height: auto;
+}
+
+.api-img2{
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,117 @@
+.container {
+    background-color: var(--dark-gray);
+    color: var(--white-color);
+    padding: 90px 0 0 0;
+    position: relative;
+}
+.contacts__container_img {
+    background-image: url(../assets/images/2.jpg);
+    height: 80vh;
+    margin: 0px 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+.contacts__container {
+    padding-top: 90px;
+    /* margin-bottom: 130px; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.contacts__container h2 {
+    font-size: 32px;
+    font-family: var(--accent-font);
+    font-weight: 300;
+    text-shadow: 2px 2px 1px rgba(0,0,0,0.7);
+}
+.contacts__container form {
+    margin-top: 20px;
+}
+.contacts__container form label, input {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    outline: none;
+}
+.contacts__container form input, textarea {
+    width: 80%;
+    margin: 0 auto;
+    background-color:var(--contact-input-color);
+    border: transparent;
+    border-radius: 20px;
+    outline: none;
+    color: white;
+    padding: 5px;
+}
+.contacts__container form textarea {
+    border: transparent;
+    border-radius: 5px;
+}
+.contacts__container form textarea {
+    font-size: 1.1em;
+    margin-top: 17px;
+    resize: none;
+    font-family: inherit;
+}
+.contacts__container Button {
+    margin: 15px 0px;
+    width: 70%;
+    /* border: 1px solid red; */
+}
+.contacts__container_icons {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.react-icons {
+    font-size: 2.2em;
+    cursor: pointer;
+    background-color: var(--contact-input-color);
+    padding: 5px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 1024px) {
+    .contacts__container_img {
+       width: 60%;
+       margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .contacts__container {
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .contacts__container form textarea {
+        font-size: 1.3em;
+    }
+    .contacts__container form textarea {
+      margin-bottom: 25px;
+    }
+    .contacts__container_icons {
+       margin-top: 15px;
+    
+    }
+    .react-icons {
+        font-size: 2.5em;
+        cursor: pointer;
+        background-color: var(--contact-input-color);
+        padding: 5px;
+        border-radius: 5px;
+    }
+}
